@@ -1,0 +1,7 @@
+Release
+Debug
+*.ncb
+*~
+*.suo
+*.old
+test/main.exe

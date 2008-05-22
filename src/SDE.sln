@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDE", "SDE.vcproj", "{96FBC3B7-9E64-4960-A713-D9E69351065B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDETest", "..\test\SDETest.vcproj", "{CF824189-8911-4E51-8C53-E7092DCA8CF7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{96FBC3B7-9E64-4960-A713-D9E69351065B} = {96FBC3B7-9E64-4960-A713-D9E69351065B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{96FBC3B7-9E64-4960-A713-D9E69351065B}.Debug.ActiveCfg = Debug|Win32
+		{96FBC3B7-9E64-4960-A713-D9E69351065B}.Debug.Build.0 = Debug|Win32
+		{96FBC3B7-9E64-4960-A713-D9E69351065B}.Release.ActiveCfg = Release|Win32
+		{96FBC3B7-9E64-4960-A713-D9E69351065B}.Release.Build.0 = Release|Win32
+		{CF824189-8911-4E51-8C53-E7092DCA8CF7}.Debug.ActiveCfg = Debug|Win32
+		{CF824189-8911-4E51-8C53-E7092DCA8CF7}.Debug.Build.0 = Debug|Win32
+		{CF824189-8911-4E51-8C53-E7092DCA8CF7}.Release.ActiveCfg = Release|Win32
+		{CF824189-8911-4E51-8C53-E7092DCA8CF7}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

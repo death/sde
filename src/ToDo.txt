@@ -1,0 +1,15 @@
+BreakPointOnRegisterValue
+
+    Will break if a register is set to a specific value
+    Parameters: What register (Enum), What value (DWORD, Mask DWORD)
+
+BreakPointOnRegisterChange
+
+    Will break if a register is modified
+    Parameters: What register (Enum)
+
+All these breakpoints use singlestepping (either into or over).
+
+The BreakPointOnFlag has a problem with returning an exact EIP. I could make it return
+an exact EIP, but not at the exact EIP address.. So I rather have it on non-exact EIP
+and have the real EIP be that.
